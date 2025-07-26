@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -25,6 +25,8 @@
       <p>Here are some of my past projects. These represent earlier designs and creative works I've completed.</p>
       <div class="gallery" id="past-gallery">
         <!-- Uploaded past work will appear here -->
+         <img src="/black-widow-2.jpg" alt="black widow">
+         <img src="/doctor strange in the multiverse of madness 3.jpg" alt="doctor strange">
       </div>
     </section>
 
@@ -33,6 +35,8 @@
       <p>These are the projects I'm currently working on. I'm exploring new ideas and improving my skills daily.</p>
       <div class="gallery" id="present-gallery">
         <!-- Uploaded present work will appear here -->
+         <img src="/bellerina11.jpg" alt="ballerina">
+         <img src="/fantastic four.jpg" alt="fantastic 4">
       </div>
     </section>
 
@@ -55,7 +59,7 @@
   </div>
 
   <!-- This script allows ONLY YOU to upload images manually when editing -->
-  <script>
+  <!-- <script>
     const pastImages = [
       // Add paths to past images here
       "images/past1.jpg",
@@ -80,6 +84,6 @@
 
     displayImages(pastImages, "past-gallery");
     displayImages(presentImages, "present-gallery");
-  </script>
+  </script> -->
 </body>
 </html>
